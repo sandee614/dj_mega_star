@@ -1,0 +1,42 @@
+            @media (max-width:950px) {
+                .navbar-nav {
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 0;
+                    margin-bottom: 0;
+                    right: 0;
+                    background: #fff;
+                    list-style: none;
+                    position: absolute;
+                    color: #000!important;
+                    padding: 27px!important;
+                    top: 0;
+                    display: none;
+                }
+                .menu_bar {
+                    display: none;
+                }
+                a.nav-link {
+                    color: rgb(7, 8, 58);
+                }
+                .open_menu {
+                    display: block;
+                    font-size: 25px;
+                }
+                .close_icon {
+                    display: block;
+                }
+                #top_header {
+                    display: none;
+                }
+                .description {
+                    left: 3%;
+                    top: 26%;
+                }
+                .description h1 {
+                    font-size: 27px;
+                }
+                .description p {
+                    font-size: 14px;
+                }
+            }
